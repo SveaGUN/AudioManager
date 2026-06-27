@@ -62,7 +62,7 @@ public class SamplePlay : MonoBehaviour
     private void PlayFadeIn() => AudioManager.Instance.FadeInBGM(0.5f, _clipBGMSlider.value);
     private void PlayFadeOutIn()
     {
-        AudioManager.Instance.FadeOutBGM(0.5f, 0, true, () =>
+        AudioManager.Instance.FadeOutBGM(0.5f, 0, callback:() =>
         {
             AudioManager.Instance.FadeInBGM(0.5f, 1, "Ed");
         });
