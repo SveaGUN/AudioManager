@@ -1,6 +1,9 @@
-# AudioManager v1.0.0
+# AudioManager v1.0.1
 
 音声の再生に便利なやつ
+
+動作確認済みバージョン
+- Unity 6000.3.8f1
 
 ---
 
